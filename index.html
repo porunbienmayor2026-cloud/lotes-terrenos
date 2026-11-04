@@ -54,16 +54,20 @@
                 <a href="#inicio" class="text-slate-300 hover:text-gold-400">Inicio</a>
                 <a href="#proyectos" class="text-slate-300 hover:text-gold-400">Proyectos</a>
                 <a href="#masterplan" class="text-slate-300 hover:text-gold-400">Master Plan</a>
+                <a href="#contacto" class="text-slate-300 hover:text-gold-400">Contacto</a>
             </div>
         </div>
     </nav>
 
     <!-- HERO SECTION -->
     <section id="inicio" class="relative py-20 text-center max-w-4xl mx-auto px-4">
+        <span class="inline-block py-1.5 px-4 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-widest mb-6">
+            <i class="fa-solid fa-gem mr-1"></i> Terrenos, Ranchos & Desarrollos de Alta Plusvalía
+        </span>
         <h1 class="text-4xl sm:text-6xl font-serif font-bold text-white mb-6">
-            Master Plan & <span class="text-gold-500">Lotificación en Tiempo Real</span>
+            Grandes Extensiones & <span class="text-gold-500">Master Plan en Tiempo Real</span>
         </h1>
-        <p class="text-slate-300 text-lg">Administra y visualiza la disponibilidad exacta de cada parcela conectada con Firebase.</p>
+        <p class="text-slate-300 text-lg mb-8">Administra y visualiza la disponibilidad exacta de cada parcela conectada con Firebase.</p>
     </section>
 
     <!-- ESTADÍSTICAS -->
@@ -124,6 +128,46 @@
             </div>
         </div>
     </section>
+
+    <!-- SECCIÓN DE PROYECTOS / CATÁLOGO -->
+    <section id="proyectos" class="py-16 bg-dark-800/50 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-serif font-bold text-white mb-8 text-center">Propiedades & Desarrollos Exclusivos</h2>
+            <div id="grid-proyectos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Se llenará con script o se puede dejar estático -->
+                <div class="bg-dark-900 border border-slate-800 rounded-xl overflow-hidden p-4">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-bold text-white">Rancho Ecuestre San Miguel</h3>
+                    <p class="text-slate-400 text-xs mt-1">San Miguel de Allende, GTO • 8.5 Hectáreas</p>
+                </div>
+                <div class="bg-dark-900 border border-slate-800 rounded-xl overflow-hidden p-4">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-bold text-white">Macro Terreno Forestal</h3>
+                    <p class="text-slate-400 text-xs mt-1">Valle de Bravo, Edo. Mex • 25 Acres</p>
+                </div>
+                <div class="bg-dark-900 border border-slate-800 rounded-xl overflow-hidden p-4">
+                    <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-bold text-white">Desarrollo Turístico Riviera</h3>
+                    <p class="text-slate-400 text-xs mt-1">Riviera Maya, Q. Roo • Macrolotes VIP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-16 max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-serif font-bold text-white mb-4">Oficina Inmobiliaria</h2>
+        <p class="text-slate-300 text-sm mb-6">Ponte en contacto con nuestros asesores para informes sobre los macrolotes y desarrollos.</p>
+        <div class="bg-dark-800 border border-slate-800 rounded-xl p-6 text-left max-w-lg mx-auto">
+            <p class="text-xs text-slate-400"><i class="fa-solid fa-phone text-gold-500 mr-2"></i> Teléfono: +52 (55) 8900-1234</p>
+            <p class="text-xs text-slate-400 mt-2"><i class="fa-solid fa-envelope text-gold-500 mr-2"></i> Correo: ventas@luxuryestates.com</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark-900 border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+        <p>© 2026 Luxury Estates - Todos los derechos reservados.</p>
+    </footer>
 
     <!-- MODAL DE GESTIÓN -->
     <div id="loteModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden flex items-center justify-center p-4">
